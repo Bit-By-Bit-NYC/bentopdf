@@ -1,0 +1,21 @@
+{
+    "globalHeaders": {
+        "Cross-Origin-Opener-Policy": "same-origin",
+        "Cross-Origin-Embedder-Policy": "require-corp",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Content-Type-Options": "nosniff"
+    },
+    "navigationFallback": {
+        "rewrite": "/index.html"
+    },
+    "routes": [
+        {
+            "route": "/{lang}/*",
+            "rewrite": "/{lang}/index.html"
+        }
+    ],
+    "mimeTypes": {
+        ".json": "application/json",
+        ".webmanifest": "application/manifest+json"
+    }
+}
