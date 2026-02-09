@@ -1,4 +1,25 @@
 {
+    "routes": [
+        {
+            "route": "/{lang}/*",
+            "rewrite": "/{lang}/index.html",
+            "allowedRoles": [
+                "authenticated"
+            ]
+        },
+        {
+            "route": "/*",
+            "allowedRoles": [
+                "authenticated"
+            ]
+        }
+    ],
+    "responseOverrides": {
+        "401": {
+            "redirect": "/.auth/login/aad",
+            "statusCode": 302
+        }
+    },
     "globalHeaders": {
         "Cross-Origin-Opener-Policy": "same-origin",
         "Cross-Origin-Embedder-Policy": "require-corp",
@@ -8,12 +29,6 @@
     "navigationFallback": {
         "rewrite": "/index.html"
     },
-    "routes": [
-        {
-            "route": "/{lang}/*",
-            "rewrite": "/{lang}/index.html"
-        }
-    ],
     "mimeTypes": {
         ".json": "application/json",
         ".webmanifest": "application/manifest+json"
