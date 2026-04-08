@@ -1,0 +1,478 @@
+src/js/compare/engine/diff-text-runs.ts(1,28): error TS2307: Cannot find module 'diff' or its corresponding type declarations.
+src/js/compare/engine/visual-diff.ts(1,24): error TS2307: Cannot find module 'pixelmatch' or its corresponding type declarations.
+src/js/logic/form-creator.ts(36,25): error TS2307: Cannot find module 'bwip-js/browser' or its corresponding type declarations.
+src/js/logic/pdf-to-tiff-page.ts(14,23): error TS2307: Cannot find module 'wasm-vips' or its corresponding type declarations.
+src/js/logic/pdf-to-tiff-page.ts(29,34): error TS2307: Cannot find module 'wasm-vips' or its corresponding type declarations.
+src/js/logic/pdf-workflow-page.ts(68,19): error TS7006: Parameter 'context' implicitly has an 'any' type.
+src/js/logic/pdf-workflow-page.ts(199,17): error TS7006: Parameter 'context' implicitly has an 'any' type.
+src/js/logic/pdf-workflow-page.ts(270,14): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/js/logic/pdf-workflow-page.ts(563,31): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/logic/pdf-workflow-page.ts(673,28): error TS2339: Property 'label' does not exist on type 'BaseWorkflowNode'.
+src/js/logic/pdf-workflow-page.ts(1111,48): error TS2339: Property 'controls' does not exist on type 'BaseWorkflowNode'.
+src/js/logic/pdf-workflow-page.ts(1121,46): error TS2339: Property 'controls' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/editor.ts(1,28): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/editor.ts(2,44): error TS2307: Cannot find module 'rete-area-plugin' or its corresponding type declarations.
+src/js/workflow/editor.ts(6,8): error TS2307: Cannot find module 'rete-connection-plugin' or its corresponding type declarations.
+src/js/workflow/editor.ts(7,50): error TS2307: Cannot find module '@retejs/lit-plugin' or its corresponding type declarations.
+src/js/workflow/editor.ts(8,47): error TS2307: Cannot find module '@retejs/lit-plugin' or its corresponding type declarations.
+src/js/workflow/editor.ts(9,32): error TS2307: Cannot find module 'rete-engine' or its corresponding type declarations.
+src/js/workflow/editor.ts(10,43): error TS2307: Cannot find module 'rete-engine' or its corresponding type declarations.
+src/js/workflow/editor.ts(11,34): error TS2307: Cannot find module 'lit' or its corresponding type declarations.
+src/js/workflow/editor.ts(61,5): error TS2322: Type 'this' is not assignable to type 'HTMLElement | ShadowRoot'.
+  Type 'WorkflowNodeElement' is not assignable to type 'HTMLElement | ShadowRoot'.
+    Type 'this' is not assignable to type 'ShadowRoot'.
+      Type 'WorkflowNodeElement' is missing the following properties from type 'ShadowRoot': clonable, delegatesFocus, host, innerHTML, and 75 more.
+src/js/workflow/editor.ts(67,40): error TS2339: Property 'inputs' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/editor.ts(68,41): error TS2339: Property 'outputs' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/editor.ts(95,44): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/editor.ts(96,46): error TS2339: Property 'socket' does not exist on type 'unknown'.
+src/js/workflow/editor.ts(139,38): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/editor.ts(173,24): error TS2339: Property 'label' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/editor.ts(199,44): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/editor.ts(200,47): error TS2339: Property 'socket' does not exist on type 'unknown'.
+src/js/workflow/editor.ts(217,36): error TS2345: Argument of type 'typeof WorkflowNodeElement' is not assignable to parameter of type 'CustomElementConstructor'.
+  Type 'WorkflowNodeElement' is missing the following properties from type 'HTMLElement': accessKey, accessKeyLabel, autocapitalize, autocorrect, and 314 more.
+src/js/workflow/editor.ts(233,6): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/js/workflow/editor.ts(280,14): error TS7006: Parameter 'data' implicitly has an 'any' type.
+src/js/workflow/editor.ts(306,22): error TS7006: Parameter 'context' implicitly has an 'any' type.
+src/js/workflow/engine.ts(1,47): error TS2307: Cannot find module '@retejs/lit-plugin' or its corresponding type declarations.
+src/js/workflow/engine.ts(2,28): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/engine.ts(3,28): error TS2307: Cannot find module 'rete-area-plugin' or its corresponding type declarations.
+src/js/workflow/engine.ts(4,32): error TS2307: Cannot find module 'rete-engine' or its corresponding type declarations.
+src/js/workflow/engine.ts(5,43): error TS2307: Cannot find module 'rete-engine' or its corresponding type declarations.
+src/js/workflow/engine.ts(25,16): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/js/workflow/engine.ts(82,15): error TS2339: Property 'label' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(84,54): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/js/workflow/engine.ts(88,55): error TS2339: Property 'label' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(104,63): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/js/workflow/engine.ts(106,46): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(117,48): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(123,28): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(141,28): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(143,20): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(144,22): error TS2339: Property 'label' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(146,35): error TS2339: Property 'label' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(154,30): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(156,22): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(157,24): error TS2339: Property 'label' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(163,30): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(169,39): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(177,45): error TS2339: Property 'label' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(180,22): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/engine.ts(181,24): error TS2339: Property 'label' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/nodes/add-blank-page-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/add-blank-page-node.ts(15,10): error TS2339: Property 'addInput' does not exist on type 'AddBlankPageNode'.
+src/js/workflow/nodes/add-blank-page-node.ts(16,10): error TS2339: Property 'addOutput' does not exist on type 'AddBlankPageNode'.
+src/js/workflow/nodes/add-blank-page-node.ts(17,10): error TS2339: Property 'addControl' does not exist on type 'AddBlankPageNode'.
+src/js/workflow/nodes/add-blank-page-node.ts(21,10): error TS2339: Property 'addControl' does not exist on type 'AddBlankPageNode'.
+src/js/workflow/nodes/add-blank-page-node.ts(25,10): error TS2339: Property 'addControl' does not exist on type 'AddBlankPageNode'.
+src/js/workflow/nodes/add-blank-page-node.ts(35,26): error TS2339: Property 'controls' does not exist on type 'AddBlankPageNode'.
+src/js/workflow/nodes/add-blank-page-node.ts(39,32): error TS2339: Property 'controls' does not exist on type 'AddBlankPageNode'.
+src/js/workflow/nodes/add-blank-page-node.ts(43,28): error TS2339: Property 'controls' does not exist on type 'AddBlankPageNode'.
+src/js/workflow/nodes/adjust-colors-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/adjust-colors-node.ts(18,10): error TS2339: Property 'addInput' does not exist on type 'AdjustColorsNode'.
+src/js/workflow/nodes/adjust-colors-node.ts(19,10): error TS2339: Property 'addOutput' does not exist on type 'AdjustColorsNode'.
+src/js/workflow/nodes/adjust-colors-node.ts(20,10): error TS2339: Property 'addControl' does not exist on type 'AdjustColorsNode'.
+src/js/workflow/nodes/adjust-colors-node.ts(24,10): error TS2339: Property 'addControl' does not exist on type 'AdjustColorsNode'.
+src/js/workflow/nodes/adjust-colors-node.ts(28,10): error TS2339: Property 'addControl' does not exist on type 'AdjustColorsNode'.
+src/js/workflow/nodes/adjust-colors-node.ts(32,10): error TS2339: Property 'addControl' does not exist on type 'AdjustColorsNode'.
+src/js/workflow/nodes/adjust-colors-node.ts(36,10): error TS2339: Property 'addControl' does not exist on type 'AdjustColorsNode'.
+src/js/workflow/nodes/adjust-colors-node.ts(40,10): error TS2339: Property 'addControl' does not exist on type 'AdjustColorsNode'.
+src/js/workflow/nodes/adjust-colors-node.ts(44,10): error TS2339: Property 'addControl' does not exist on type 'AdjustColorsNode'.
+src/js/workflow/nodes/adjust-colors-node.ts(48,10): error TS2339: Property 'addControl' does not exist on type 'AdjustColorsNode'.
+src/js/workflow/nodes/adjust-colors-node.ts(60,25): error TS2339: Property 'controls' does not exist on type 'AdjustColorsNode'.
+src/js/workflow/nodes/background-color-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/background-color-node.ts(17,10): error TS2339: Property 'addInput' does not exist on type 'BackgroundColorNode'.
+src/js/workflow/nodes/background-color-node.ts(18,10): error TS2339: Property 'addOutput' does not exist on type 'BackgroundColorNode'.
+src/js/workflow/nodes/background-color-node.ts(19,10): error TS2339: Property 'addControl' does not exist on type 'BackgroundColorNode'.
+src/js/workflow/nodes/background-color-node.ts(30,28): error TS2339: Property 'controls' does not exist on type 'BackgroundColorNode'.
+src/js/workflow/nodes/base-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/base-node.ts(24,16): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/nodes/base-node.ts(25,19): error TS2339: Property 'label' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/nodes/booklet-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/booklet-node.ts(24,10): error TS2339: Property 'addInput' does not exist on type 'BookletNode'.
+src/js/workflow/nodes/booklet-node.ts(25,10): error TS2339: Property 'addOutput' does not exist on type 'BookletNode'.
+src/js/workflow/nodes/booklet-node.ts(26,10): error TS2339: Property 'addControl' does not exist on type 'BookletNode'.
+src/js/workflow/nodes/booklet-node.ts(30,10): error TS2339: Property 'addControl' does not exist on type 'BookletNode'.
+src/js/workflow/nodes/booklet-node.ts(34,10): error TS2339: Property 'addControl' does not exist on type 'BookletNode'.
+src/js/workflow/nodes/booklet-node.ts(46,25): error TS2339: Property 'controls' does not exist on type 'BookletNode'.
+src/js/workflow/nodes/cbz-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/cbz-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'CbzToPdfNode'.
+src/js/workflow/nodes/combine-single-page-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/combine-single-page-node.ts(17,10): error TS2339: Property 'addInput' does not exist on type 'CombineSinglePageNode'.
+src/js/workflow/nodes/combine-single-page-node.ts(18,10): error TS2339: Property 'addOutput' does not exist on type 'CombineSinglePageNode'.
+src/js/workflow/nodes/combine-single-page-node.ts(19,10): error TS2339: Property 'addControl' does not exist on type 'CombineSinglePageNode'.
+src/js/workflow/nodes/combine-single-page-node.ts(23,10): error TS2339: Property 'addControl' does not exist on type 'CombineSinglePageNode'.
+src/js/workflow/nodes/combine-single-page-node.ts(27,10): error TS2339: Property 'addControl' does not exist on type 'CombineSinglePageNode'.
+src/js/workflow/nodes/combine-single-page-node.ts(31,10): error TS2339: Property 'addControl' does not exist on type 'CombineSinglePageNode'.
+src/js/workflow/nodes/combine-single-page-node.ts(35,10): error TS2339: Property 'addControl' does not exist on type 'CombineSinglePageNode'.
+src/js/workflow/nodes/combine-single-page-node.ts(39,10): error TS2339: Property 'addControl' does not exist on type 'CombineSinglePageNode'.
+src/js/workflow/nodes/combine-single-page-node.ts(51,25): error TS2339: Property 'controls' does not exist on type 'CombineSinglePageNode'.
+src/js/workflow/nodes/combine-single-page-node.ts(57,25): error TS2339: Property 'controls' does not exist on type 'CombineSinglePageNode'.
+src/js/workflow/nodes/compress-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/compress-node.ts(21,10): error TS2339: Property 'addInput' does not exist on type 'CompressNode'.
+src/js/workflow/nodes/compress-node.ts(22,10): error TS2339: Property 'addOutput' does not exist on type 'CompressNode'.
+src/js/workflow/nodes/compress-node.ts(26,10): error TS2339: Property 'addControl' does not exist on type 'CompressNode'.
+src/js/workflow/nodes/compress-node.ts(30,10): error TS2339: Property 'addControl' does not exist on type 'CompressNode'.
+src/js/workflow/nodes/compress-node.ts(34,10): error TS2339: Property 'addControl' does not exist on type 'CompressNode'.
+src/js/workflow/nodes/compress-node.ts(38,10): error TS2339: Property 'addControl' does not exist on type 'CompressNode'.
+src/js/workflow/nodes/compress-node.ts(42,10): error TS2339: Property 'addControl' does not exist on type 'CompressNode'.
+src/js/workflow/nodes/compress-node.ts(46,10): error TS2339: Property 'addControl' does not exist on type 'CompressNode'.
+src/js/workflow/nodes/compress-node.ts(50,10): error TS2339: Property 'addControl' does not exist on type 'CompressNode'.
+src/js/workflow/nodes/compress-node.ts(54,10): error TS2339: Property 'addControl' does not exist on type 'CompressNode'.
+src/js/workflow/nodes/compress-node.ts(58,10): error TS2339: Property 'addControl' does not exist on type 'CompressNode'.
+src/js/workflow/nodes/compress-node.ts(65,23): error TS2339: Property 'controls' does not exist on type 'CompressNode'.
+src/js/workflow/nodes/compress-node.ts(72,23): error TS2339: Property 'controls' does not exist on type 'CompressNode'.
+src/js/workflow/nodes/crop-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/crop-node.ts(15,10): error TS2339: Property 'addInput' does not exist on type 'CropNode'.
+src/js/workflow/nodes/crop-node.ts(16,10): error TS2339: Property 'addOutput' does not exist on type 'CropNode'.
+src/js/workflow/nodes/crop-node.ts(17,10): error TS2339: Property 'addControl' does not exist on type 'CropNode'.
+src/js/workflow/nodes/crop-node.ts(21,10): error TS2339: Property 'addControl' does not exist on type 'CropNode'.
+src/js/workflow/nodes/crop-node.ts(25,10): error TS2339: Property 'addControl' does not exist on type 'CropNode'.
+src/js/workflow/nodes/crop-node.ts(29,10): error TS2339: Property 'addControl' does not exist on type 'CropNode'.
+src/js/workflow/nodes/crop-node.ts(41,25): error TS2339: Property 'controls' does not exist on type 'CropNode'.
+src/js/workflow/nodes/decrypt-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/decrypt-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'DecryptNode'.
+src/js/workflow/nodes/decrypt-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'DecryptNode'.
+src/js/workflow/nodes/decrypt-node.ts(18,10): error TS2339: Property 'addControl' does not exist on type 'DecryptNode'.
+src/js/workflow/nodes/decrypt-node.ts(29,27): error TS2339: Property 'controls' does not exist on type 'DecryptNode'.
+src/js/workflow/nodes/delete-pages-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/delete-pages-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'DeletePagesNode'.
+src/js/workflow/nodes/delete-pages-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'DeletePagesNode'.
+src/js/workflow/nodes/delete-pages-node.ts(18,10): error TS2339: Property 'addControl' does not exist on type 'DeletePagesNode'.
+src/js/workflow/nodes/delete-pages-node.ts(28,31): error TS2339: Property 'controls' does not exist on type 'DeletePagesNode'.
+src/js/workflow/nodes/deskew-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/deskew-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'DeskewNode'.
+src/js/workflow/nodes/deskew-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'DeskewNode'.
+src/js/workflow/nodes/deskew-node.ts(18,10): error TS2339: Property 'addControl' does not exist on type 'DeskewNode'.
+src/js/workflow/nodes/deskew-node.ts(22,10): error TS2339: Property 'addControl' does not exist on type 'DeskewNode'.
+src/js/workflow/nodes/deskew-node.ts(34,25): error TS2339: Property 'controls' does not exist on type 'DeskewNode'.
+src/js/workflow/nodes/digital-sign-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/digital-sign-node.ts(25,10): error TS2339: Property 'addInput' does not exist on type 'DigitalSignNode'.
+src/js/workflow/nodes/digital-sign-node.ts(26,10): error TS2339: Property 'addOutput' does not exist on type 'DigitalSignNode'.
+src/js/workflow/nodes/digital-sign-node.ts(27,10): error TS2339: Property 'addControl' does not exist on type 'DigitalSignNode'.
+src/js/workflow/nodes/digital-sign-node.ts(31,10): error TS2339: Property 'addControl' does not exist on type 'DigitalSignNode'.
+src/js/workflow/nodes/digital-sign-node.ts(35,10): error TS2339: Property 'addControl' does not exist on type 'DigitalSignNode'.
+src/js/workflow/nodes/digital-sign-node.ts(95,29): error TS2339: Property 'controls' does not exist on type 'DigitalSignNode'.
+src/js/workflow/nodes/digital-sign-node.ts(98,31): error TS2339: Property 'controls' does not exist on type 'DigitalSignNode'.
+src/js/workflow/nodes/digital-sign-node.ts(101,30): error TS2339: Property 'controls' does not exist on type 'DigitalSignNode'.
+src/js/workflow/nodes/divide-pages-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/divide-pages-node.ts(17,10): error TS2339: Property 'addInput' does not exist on type 'DividePagesNode'.
+src/js/workflow/nodes/divide-pages-node.ts(18,10): error TS2339: Property 'addOutput' does not exist on type 'DividePagesNode'.
+src/js/workflow/nodes/divide-pages-node.ts(19,10): error TS2339: Property 'addControl' does not exist on type 'DividePagesNode'.
+src/js/workflow/nodes/divide-pages-node.ts(23,10): error TS2339: Property 'addControl' does not exist on type 'DividePagesNode'.
+src/js/workflow/nodes/divide-pages-node.ts(33,26): error TS2339: Property 'controls' does not exist on type 'DividePagesNode'.
+src/js/workflow/nodes/divide-pages-node.ts(39,28): error TS2339: Property 'controls' does not exist on type 'DividePagesNode'.
+src/js/workflow/nodes/download-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/download-node.ts(15,10): error TS2339: Property 'addInput' does not exist on type 'DownloadNode'.
+src/js/workflow/nodes/download-node.ts(16,10): error TS2339: Property 'addControl' does not exist on type 'DownloadNode'.
+src/js/workflow/nodes/download-node.ts(32,34): error TS2339: Property 'controls' does not exist on type 'DownloadNode'.
+src/js/workflow/nodes/download-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/download-pdf-node.ts(15,10): error TS2339: Property 'addInput' does not exist on type 'DownloadPDFNode'.
+src/js/workflow/nodes/download-pdf-node.ts(16,10): error TS2339: Property 'addControl' does not exist on type 'DownloadPDFNode'.
+src/js/workflow/nodes/download-pdf-node.ts(30,34): error TS2339: Property 'controls' does not exist on type 'DownloadPDFNode'.
+src/js/workflow/nodes/download-zip-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/download-zip-node.ts(15,10): error TS2339: Property 'addInput' does not exist on type 'DownloadZipNode'.
+src/js/workflow/nodes/download-zip-node.ts(16,10): error TS2339: Property 'addControl' does not exist on type 'DownloadZipNode'.
+src/js/workflow/nodes/download-zip-node.ts(49,31): error TS2339: Property 'controls' does not exist on type 'DownloadZipNode'.
+src/js/workflow/nodes/edit-metadata-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/edit-metadata-node.ts(15,10): error TS2339: Property 'addInput' does not exist on type 'EditMetadataNode'.
+src/js/workflow/nodes/edit-metadata-node.ts(16,10): error TS2339: Property 'addOutput' does not exist on type 'EditMetadataNode'.
+src/js/workflow/nodes/edit-metadata-node.ts(17,10): error TS2339: Property 'addControl' does not exist on type 'EditMetadataNode'.
+src/js/workflow/nodes/edit-metadata-node.ts(21,10): error TS2339: Property 'addControl' does not exist on type 'EditMetadataNode'.
+src/js/workflow/nodes/edit-metadata-node.ts(25,10): error TS2339: Property 'addControl' does not exist on type 'EditMetadataNode'.
+src/js/workflow/nodes/edit-metadata-node.ts(29,10): error TS2339: Property 'addControl' does not exist on type 'EditMetadataNode'.
+src/js/workflow/nodes/edit-metadata-node.ts(33,10): error TS2339: Property 'addControl' does not exist on type 'EditMetadataNode'.
+src/js/workflow/nodes/edit-metadata-node.ts(37,10): error TS2339: Property 'addControl' does not exist on type 'EditMetadataNode'.
+src/js/workflow/nodes/edit-metadata-node.ts(49,25): error TS2339: Property 'controls' does not exist on type 'EditMetadataNode'.
+src/js/workflow/nodes/edit-metadata-node.ts(73,21): error TS7006: Parameter 'k' implicitly has an 'any' type.
+src/js/workflow/nodes/email-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/email-to-pdf-node.ts(18,10): error TS2339: Property 'addOutput' does not exist on type 'EmailToPdfNode'.
+src/js/workflow/nodes/email-to-pdf-node.ts(19,10): error TS2339: Property 'addControl' does not exist on type 'EmailToPdfNode'.
+src/js/workflow/nodes/email-to-pdf-node.ts(23,10): error TS2339: Property 'addControl' does not exist on type 'EmailToPdfNode'.
+src/js/workflow/nodes/email-to-pdf-node.ts(27,10): error TS2339: Property 'addControl' does not exist on type 'EmailToPdfNode'.
+src/js/workflow/nodes/email-to-pdf-node.ts(66,31): error TS2339: Property 'controls' does not exist on type 'EmailToPdfNode'.
+src/js/workflow/nodes/email-to-pdf-node.ts(69,28): error TS2339: Property 'controls' does not exist on type 'EmailToPdfNode'.
+src/js/workflow/nodes/email-to-pdf-node.ts(72,29): error TS2339: Property 'controls' does not exist on type 'EmailToPdfNode'.
+src/js/workflow/nodes/encrypt-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/encrypt-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'EncryptNode'.
+src/js/workflow/nodes/encrypt-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'EncryptNode'.
+src/js/workflow/nodes/encrypt-node.ts(18,10): error TS2339: Property 'addControl' does not exist on type 'EncryptNode'.
+src/js/workflow/nodes/encrypt-node.ts(22,10): error TS2339: Property 'addControl' does not exist on type 'EncryptNode'.
+src/js/workflow/nodes/encrypt-node.ts(34,25): error TS2339: Property 'controls' does not exist on type 'EncryptNode'.
+src/js/workflow/nodes/epub-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/epub-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'EpubToPdfNode'.
+src/js/workflow/nodes/excel-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/excel-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'ExcelToPdfNode'.
+src/js/workflow/nodes/extract-images-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/extract-images-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'ExtractImagesNode'.
+src/js/workflow/nodes/extract-pages-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/extract-pages-node.ts(17,10): error TS2339: Property 'addInput' does not exist on type 'ExtractPagesNode'.
+src/js/workflow/nodes/extract-pages-node.ts(18,10): error TS2339: Property 'addOutput' does not exist on type 'ExtractPagesNode'.
+src/js/workflow/nodes/extract-pages-node.ts(22,10): error TS2339: Property 'addControl' does not exist on type 'ExtractPagesNode'.
+src/js/workflow/nodes/extract-pages-node.ts(34,28): error TS2339: Property 'controls' does not exist on type 'ExtractPagesNode'.
+src/js/workflow/nodes/fb2-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/fb2-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'Fb2ToPdfNode'.
+src/js/workflow/nodes/fix-page-size-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/fix-page-size-node.ts(17,10): error TS2339: Property 'addInput' does not exist on type 'FixPageSizeNode'.
+src/js/workflow/nodes/fix-page-size-node.ts(18,10): error TS2339: Property 'addOutput' does not exist on type 'FixPageSizeNode'.
+src/js/workflow/nodes/fix-page-size-node.ts(22,10): error TS2339: Property 'addControl' does not exist on type 'FixPageSizeNode'.
+src/js/workflow/nodes/fix-page-size-node.ts(26,10): error TS2339: Property 'addControl' does not exist on type 'FixPageSizeNode'.
+src/js/workflow/nodes/fix-page-size-node.ts(30,10): error TS2339: Property 'addControl' does not exist on type 'FixPageSizeNode'.
+src/js/workflow/nodes/fix-page-size-node.ts(34,10): error TS2339: Property 'addControl' does not exist on type 'FixPageSizeNode'.
+src/js/workflow/nodes/fix-page-size-node.ts(38,10): error TS2339: Property 'addControl' does not exist on type 'FixPageSizeNode'.
+src/js/workflow/nodes/fix-page-size-node.ts(42,10): error TS2339: Property 'addControl' does not exist on type 'FixPageSizeNode'.
+src/js/workflow/nodes/fix-page-size-node.ts(46,10): error TS2339: Property 'addControl' does not exist on type 'FixPageSizeNode'.
+src/js/workflow/nodes/fix-page-size-node.ts(58,25): error TS2339: Property 'controls' does not exist on type 'FixPageSizeNode'.
+src/js/workflow/nodes/fix-page-size-node.ts(65,25): error TS2339: Property 'controls' does not exist on type 'FixPageSizeNode'.
+src/js/workflow/nodes/flatten-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/flatten-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'FlattenNode'.
+src/js/workflow/nodes/flatten-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'FlattenNode'.
+src/js/workflow/nodes/font-to-outline-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/font-to-outline-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'FontToOutlineNode'.
+src/js/workflow/nodes/font-to-outline-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'FontToOutlineNode'.
+src/js/workflow/nodes/greyscale-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/greyscale-node.ts(17,10): error TS2339: Property 'addInput' does not exist on type 'GreyscaleNode'.
+src/js/workflow/nodes/greyscale-node.ts(18,10): error TS2339: Property 'addOutput' does not exist on type 'GreyscaleNode'.
+src/js/workflow/nodes/header-footer-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/header-footer-node.ts(17,10): error TS2339: Property 'addInput' does not exist on type 'HeaderFooterNode'.
+src/js/workflow/nodes/header-footer-node.ts(18,10): error TS2339: Property 'addOutput' does not exist on type 'HeaderFooterNode'.
+src/js/workflow/nodes/header-footer-node.ts(22,10): error TS2339: Property 'addControl' does not exist on type 'HeaderFooterNode'.
+src/js/workflow/nodes/header-footer-node.ts(26,10): error TS2339: Property 'addControl' does not exist on type 'HeaderFooterNode'.
+src/js/workflow/nodes/header-footer-node.ts(30,10): error TS2339: Property 'addControl' does not exist on type 'HeaderFooterNode'.
+src/js/workflow/nodes/header-footer-node.ts(34,10): error TS2339: Property 'addControl' does not exist on type 'HeaderFooterNode'.
+src/js/workflow/nodes/header-footer-node.ts(38,10): error TS2339: Property 'addControl' does not exist on type 'HeaderFooterNode'.
+src/js/workflow/nodes/header-footer-node.ts(44,10): error TS2339: Property 'addControl' does not exist on type 'HeaderFooterNode'.
+src/js/workflow/nodes/header-footer-node.ts(48,10): error TS2339: Property 'addControl' does not exist on type 'HeaderFooterNode'.
+src/js/workflow/nodes/header-footer-node.ts(52,10): error TS2339: Property 'addControl' does not exist on type 'HeaderFooterNode'.
+src/js/workflow/nodes/header-footer-node.ts(64,25): error TS2339: Property 'controls' does not exist on type 'HeaderFooterNode'.
+src/js/workflow/nodes/header-footer-node.ts(69,27): error TS2339: Property 'controls' does not exist on type 'HeaderFooterNode'.
+src/js/workflow/nodes/image-input-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/image-input-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'ImageInputNode'.
+src/js/workflow/nodes/invert-colors-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/invert-colors-node.ts(17,10): error TS2339: Property 'addInput' does not exist on type 'InvertColorsNode'.
+src/js/workflow/nodes/invert-colors-node.ts(18,10): error TS2339: Property 'addOutput' does not exist on type 'InvertColorsNode'.
+src/js/workflow/nodes/json-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/json-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'JsonToPdfNode'.
+src/js/workflow/nodes/linearize-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/linearize-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'LinearizeNode'.
+src/js/workflow/nodes/linearize-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'LinearizeNode'.
+src/js/workflow/nodes/markdown-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/markdown-to-pdf-node.ts(20,10): error TS2339: Property 'addOutput' does not exist on type 'MarkdownToPdfNode'.
+src/js/workflow/nodes/merge-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/merge-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'MergeNode'.
+src/js/workflow/nodes/merge-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'MergeNode'.
+src/js/workflow/nodes/mobi-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/mobi-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'MobiToPdfNode'.
+src/js/workflow/nodes/n-up-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/n-up-node.ts(17,10): error TS2339: Property 'addInput' does not exist on type 'NUpNode'.
+src/js/workflow/nodes/n-up-node.ts(18,10): error TS2339: Property 'addOutput' does not exist on type 'NUpNode'.
+src/js/workflow/nodes/n-up-node.ts(19,10): error TS2339: Property 'addControl' does not exist on type 'NUpNode'.
+src/js/workflow/nodes/n-up-node.ts(23,10): error TS2339: Property 'addControl' does not exist on type 'NUpNode'.
+src/js/workflow/nodes/n-up-node.ts(27,10): error TS2339: Property 'addControl' does not exist on type 'NUpNode'.
+src/js/workflow/nodes/n-up-node.ts(31,10): error TS2339: Property 'addControl' does not exist on type 'NUpNode'.
+src/js/workflow/nodes/n-up-node.ts(35,10): error TS2339: Property 'addControl' does not exist on type 'NUpNode'.
+src/js/workflow/nodes/n-up-node.ts(46,24): error TS2339: Property 'controls' does not exist on type 'NUpNode'.
+src/js/workflow/nodes/n-up-node.ts(54,25): error TS2339: Property 'controls' does not exist on type 'NUpNode'.
+src/js/workflow/nodes/ocr-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/ocr-node.ts(15,10): error TS2339: Property 'addInput' does not exist on type 'OCRNode'.
+src/js/workflow/nodes/ocr-node.ts(16,10): error TS2339: Property 'addOutput' does not exist on type 'OCRNode'.
+src/js/workflow/nodes/ocr-node.ts(20,10): error TS2339: Property 'addControl' does not exist on type 'OCRNode'.
+src/js/workflow/nodes/ocr-node.ts(24,10): error TS2339: Property 'addControl' does not exist on type 'OCRNode'.
+src/js/workflow/nodes/ocr-node.ts(28,10): error TS2339: Property 'addControl' does not exist on type 'OCRNode'.
+src/js/workflow/nodes/ocr-node.ts(32,10): error TS2339: Property 'addControl' does not exist on type 'OCRNode'.
+src/js/workflow/nodes/ocr-node.ts(43,27): error TS2339: Property 'controls' does not exist on type 'OCRNode'.
+src/js/workflow/nodes/ocr-node.ts(48,26): error TS2339: Property 'controls' does not exist on type 'OCRNode'.
+src/js/workflow/nodes/ocr-node.ts(56,31): error TS2339: Property 'controls' does not exist on type 'OCRNode'.
+src/js/workflow/nodes/ocr-node.ts(61,32): error TS2339: Property 'controls' does not exist on type 'OCRNode'.
+src/js/workflow/nodes/odg-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/odg-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'OdgToPdfNode'.
+src/js/workflow/nodes/overlay-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/overlay-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'OverlayNode'.
+src/js/workflow/nodes/overlay-node.ts(17,10): error TS2339: Property 'addInput' does not exist on type 'OverlayNode'.
+src/js/workflow/nodes/overlay-node.ts(18,10): error TS2339: Property 'addOutput' does not exist on type 'OverlayNode'.
+src/js/workflow/nodes/overlay-node.ts(19,10): error TS2339: Property 'addControl' does not exist on type 'OverlayNode'.
+src/js/workflow/nodes/overlay-node.ts(37,30): error TS2339: Property 'controls' does not exist on type 'OverlayNode'.
+src/js/workflow/nodes/page-numbers-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/page-numbers-node.ts(21,10): error TS2339: Property 'addInput' does not exist on type 'PageNumbersNode'.
+src/js/workflow/nodes/page-numbers-node.ts(22,10): error TS2339: Property 'addOutput' does not exist on type 'PageNumbersNode'.
+src/js/workflow/nodes/page-numbers-node.ts(23,10): error TS2339: Property 'addControl' does not exist on type 'PageNumbersNode'.
+src/js/workflow/nodes/page-numbers-node.ts(27,10): error TS2339: Property 'addControl' does not exist on type 'PageNumbersNode'.
+src/js/workflow/nodes/page-numbers-node.ts(31,10): error TS2339: Property 'addControl' does not exist on type 'PageNumbersNode'.
+src/js/workflow/nodes/page-numbers-node.ts(35,10): error TS2339: Property 'addControl' does not exist on type 'PageNumbersNode'.
+src/js/workflow/nodes/page-numbers-node.ts(47,25): error TS2339: Property 'controls' does not exist on type 'PageNumbersNode'.
+src/js/workflow/nodes/page-numbers-node.ts(52,27): error TS2339: Property 'controls' does not exist on type 'PageNumbersNode'.
+src/js/workflow/nodes/pages-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/pages-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'PagesToPdfNode'.
+src/js/workflow/nodes/pdf-input-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/pdf-input-node.ts(25,10): error TS2339: Property 'addOutput' does not exist on type 'PDFInputNode'.
+src/js/workflow/nodes/pdf-to-csv-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/pdf-to-csv-node.ts(32,10): error TS2339: Property 'addInput' does not exist on type 'PdfToCsvNode'.
+src/js/workflow/nodes/pdf-to-docx-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/pdf-to-docx-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'PdfToDocxNode'.
+src/js/workflow/nodes/pdf-to-images-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/pdf-to-images-node.ts(18,10): error TS2339: Property 'addInput' does not exist on type 'PdfToImagesNode'.
+src/js/workflow/nodes/pdf-to-images-node.ts(19,10): error TS2339: Property 'addControl' does not exist on type 'PdfToImagesNode'.
+src/js/workflow/nodes/pdf-to-images-node.ts(23,10): error TS2339: Property 'addControl' does not exist on type 'PdfToImagesNode'.
+src/js/workflow/nodes/pdf-to-images-node.ts(27,10): error TS2339: Property 'addControl' does not exist on type 'PdfToImagesNode'.
+src/js/workflow/nodes/pdf-to-images-node.ts(94,26): error TS2339: Property 'controls' does not exist on type 'PdfToImagesNode'.
+src/js/workflow/nodes/pdf-to-images-node.ts(101,27): error TS2339: Property 'controls' does not exist on type 'PdfToImagesNode'.
+src/js/workflow/nodes/pdf-to-images-node.ts(106,26): error TS2339: Property 'controls' does not exist on type 'PdfToImagesNode'.
+src/js/workflow/nodes/pdf-to-markdown-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/pdf-to-markdown-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'PdfToMarkdownNode'.
+src/js/workflow/nodes/pdf-to-pdfa-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/pdf-to-pdfa-node.ts(17,10): error TS2339: Property 'addInput' does not exist on type 'PdfToPdfANode'.
+src/js/workflow/nodes/pdf-to-pdfa-node.ts(18,10): error TS2339: Property 'addOutput' does not exist on type 'PdfToPdfANode'.
+src/js/workflow/nodes/pdf-to-pdfa-node.ts(19,10): error TS2339: Property 'addControl' does not exist on type 'PdfToPdfANode'.
+src/js/workflow/nodes/pdf-to-pdfa-node.ts(23,10): error TS2339: Property 'addControl' does not exist on type 'PdfToPdfANode'.
+src/js/workflow/nodes/pdf-to-pdfa-node.ts(35,25): error TS2339: Property 'controls' does not exist on type 'PdfToPdfANode'.
+src/js/workflow/nodes/pdf-to-svg-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/pdf-to-svg-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'PdfToSvgNode'.
+src/js/workflow/nodes/pdf-to-text-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/pdf-to-text-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'PdfToTextNode'.
+src/js/workflow/nodes/pdf-to-xlsx-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/pdf-to-xlsx-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'PdfToXlsxNode'.
+src/js/workflow/nodes/posterize-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/posterize-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'PosterizeNode'.
+src/js/workflow/nodes/posterize-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'PosterizeNode'.
+src/js/workflow/nodes/posterize-node.ts(21,10): error TS2339: Property 'addControl' does not exist on type 'PosterizeNode'.
+src/js/workflow/nodes/posterize-node.ts(25,10): error TS2339: Property 'addControl' does not exist on type 'PosterizeNode'.
+src/js/workflow/nodes/posterize-node.ts(36,27): error TS2339: Property 'controls' does not exist on type 'PosterizeNode'.
+src/js/workflow/nodes/posterize-node.ts(39,27): error TS2339: Property 'controls' does not exist on type 'PosterizeNode'.
+src/js/workflow/nodes/powerpoint-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/powerpoint-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'PowerPointToPdfNode'.
+src/js/workflow/nodes/pub-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/pub-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'PubToPdfNode'.
+src/js/workflow/nodes/rasterize-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/rasterize-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'RasterizeNode'.
+src/js/workflow/nodes/rasterize-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'RasterizeNode'.
+src/js/workflow/nodes/rasterize-node.ts(21,10): error TS2339: Property 'addControl' does not exist on type 'RasterizeNode'.
+src/js/workflow/nodes/rasterize-node.ts(25,10): error TS2339: Property 'addControl' does not exist on type 'RasterizeNode'.
+src/js/workflow/nodes/rasterize-node.ts(29,10): error TS2339: Property 'addControl' does not exist on type 'RasterizeNode'.
+src/js/workflow/nodes/rasterize-node.ts(41,25): error TS2339: Property 'controls' does not exist on type 'RasterizeNode'.
+src/js/workflow/nodes/redact-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/redact-node.ts(17,10): error TS2339: Property 'addInput' does not exist on type 'RedactNode'.
+src/js/workflow/nodes/redact-node.ts(18,10): error TS2339: Property 'addOutput' does not exist on type 'RedactNode'.
+src/js/workflow/nodes/redact-node.ts(19,10): error TS2339: Property 'addControl' does not exist on type 'RedactNode'.
+src/js/workflow/nodes/redact-node.ts(23,10): error TS2339: Property 'addControl' does not exist on type 'RedactNode'.
+src/js/workflow/nodes/redact-node.ts(27,10): error TS2339: Property 'addControl' does not exist on type 'RedactNode'.
+src/js/workflow/nodes/redact-node.ts(31,10): error TS2339: Property 'addControl' does not exist on type 'RedactNode'.
+src/js/workflow/nodes/redact-node.ts(35,10): error TS2339: Property 'addControl' does not exist on type 'RedactNode'.
+src/js/workflow/nodes/redact-node.ts(39,10): error TS2339: Property 'addControl' does not exist on type 'RedactNode'.
+src/js/workflow/nodes/redact-node.ts(43,10): error TS2339: Property 'addControl' does not exist on type 'RedactNode'.
+src/js/workflow/nodes/redact-node.ts(50,23): error TS2339: Property 'controls' does not exist on type 'RedactNode'.
+src/js/workflow/nodes/redact-node.ts(57,23): error TS2339: Property 'controls' does not exist on type 'RedactNode'.
+src/js/workflow/nodes/remove-annotations-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/remove-annotations-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'RemoveAnnotationsNode'.
+src/js/workflow/nodes/remove-annotations-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'RemoveAnnotationsNode'.
+src/js/workflow/nodes/remove-blank-pages-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/remove-blank-pages-node.ts(17,10): error TS2339: Property 'addInput' does not exist on type 'RemoveBlankPagesNode'.
+src/js/workflow/nodes/remove-blank-pages-node.ts(18,10): error TS2339: Property 'addOutput' does not exist on type 'RemoveBlankPagesNode'.
+src/js/workflow/nodes/remove-blank-pages-node.ts(19,10): error TS2339: Property 'addControl' does not exist on type 'RemoveBlankPagesNode'.
+src/js/workflow/nodes/remove-blank-pages-node.ts(53,29): error TS2339: Property 'controls' does not exist on type 'RemoveBlankPagesNode'.
+src/js/workflow/nodes/repair-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/repair-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'RepairNode'.
+src/js/workflow/nodes/repair-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'RepairNode'.
+src/js/workflow/nodes/reverse-pages-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/reverse-pages-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'ReversePagesNode'.
+src/js/workflow/nodes/reverse-pages-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'ReversePagesNode'.
+src/js/workflow/nodes/rotate-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/rotate-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'RotateNode'.
+src/js/workflow/nodes/rotate-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'RotateNode'.
+src/js/workflow/nodes/rotate-node.ts(18,10): error TS2339: Property 'addControl' does not exist on type 'RotateNode'.
+src/js/workflow/nodes/rotate-node.ts(28,31): error TS2339: Property 'controls' does not exist on type 'RotateNode'.
+src/js/workflow/nodes/sanitize-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/sanitize-node.ts(15,10): error TS2339: Property 'addInput' does not exist on type 'SanitizeNode'.
+src/js/workflow/nodes/sanitize-node.ts(16,10): error TS2339: Property 'addOutput' does not exist on type 'SanitizeNode'.
+src/js/workflow/nodes/sanitize-node.ts(17,10): error TS2339: Property 'addControl' does not exist on type 'SanitizeNode'.
+src/js/workflow/nodes/sanitize-node.ts(21,10): error TS2339: Property 'addControl' does not exist on type 'SanitizeNode'.
+src/js/workflow/nodes/sanitize-node.ts(25,10): error TS2339: Property 'addControl' does not exist on type 'SanitizeNode'.
+src/js/workflow/nodes/sanitize-node.ts(29,10): error TS2339: Property 'addControl' does not exist on type 'SanitizeNode'.
+src/js/workflow/nodes/sanitize-node.ts(33,10): error TS2339: Property 'addControl' does not exist on type 'SanitizeNode'.
+src/js/workflow/nodes/sanitize-node.ts(37,10): error TS2339: Property 'addControl' does not exist on type 'SanitizeNode'.
+src/js/workflow/nodes/sanitize-node.ts(41,10): error TS2339: Property 'addControl' does not exist on type 'SanitizeNode'.
+src/js/workflow/nodes/sanitize-node.ts(45,10): error TS2339: Property 'addControl' does not exist on type 'SanitizeNode'.
+src/js/workflow/nodes/sanitize-node.ts(49,10): error TS2339: Property 'addControl' does not exist on type 'SanitizeNode'.
+src/js/workflow/nodes/sanitize-node.ts(53,10): error TS2339: Property 'addControl' does not exist on type 'SanitizeNode'.
+src/js/workflow/nodes/sanitize-node.ts(65,25): error TS2339: Property 'controls' does not exist on type 'SanitizeNode'.
+src/js/workflow/nodes/scanner-effect-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/scanner-effect-node.ts(18,10): error TS2339: Property 'addInput' does not exist on type 'ScannerEffectNode'.
+src/js/workflow/nodes/scanner-effect-node.ts(19,10): error TS2339: Property 'addOutput' does not exist on type 'ScannerEffectNode'.
+src/js/workflow/nodes/scanner-effect-node.ts(20,10): error TS2339: Property 'addControl' does not exist on type 'ScannerEffectNode'.
+src/js/workflow/nodes/scanner-effect-node.ts(24,10): error TS2339: Property 'addControl' does not exist on type 'ScannerEffectNode'.
+src/js/workflow/nodes/scanner-effect-node.ts(28,10): error TS2339: Property 'addControl' does not exist on type 'ScannerEffectNode'.
+src/js/workflow/nodes/scanner-effect-node.ts(32,10): error TS2339: Property 'addControl' does not exist on type 'ScannerEffectNode'.
+src/js/workflow/nodes/scanner-effect-node.ts(36,10): error TS2339: Property 'addControl' does not exist on type 'ScannerEffectNode'.
+src/js/workflow/nodes/scanner-effect-node.ts(40,10): error TS2339: Property 'addControl' does not exist on type 'ScannerEffectNode'.
+src/js/workflow/nodes/scanner-effect-node.ts(44,10): error TS2339: Property 'addControl' does not exist on type 'ScannerEffectNode'.
+src/js/workflow/nodes/scanner-effect-node.ts(48,10): error TS2339: Property 'addControl' does not exist on type 'ScannerEffectNode'.
+src/js/workflow/nodes/scanner-effect-node.ts(52,10): error TS2339: Property 'addControl' does not exist on type 'ScannerEffectNode'.
+src/js/workflow/nodes/scanner-effect-node.ts(56,10): error TS2339: Property 'addControl' does not exist on type 'ScannerEffectNode'.
+src/js/workflow/nodes/scanner-effect-node.ts(68,25): error TS2339: Property 'controls' does not exist on type 'ScannerEffectNode'.
+src/js/workflow/nodes/scanner-effect-node.ts(75,25): error TS2339: Property 'controls' does not exist on type 'ScannerEffectNode'.
+src/js/workflow/nodes/split-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/split-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'SplitNode'.
+src/js/workflow/nodes/split-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'SplitNode'.
+src/js/workflow/nodes/split-node.ts(18,10): error TS2339: Property 'addControl' does not exist on type 'SplitNode'.
+src/js/workflow/nodes/split-node.ts(28,31): error TS2339: Property 'controls' does not exist on type 'SplitNode'.
+src/js/workflow/nodes/svg-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/svg-to-pdf-node.ts(16,10): error TS2339: Property 'addOutput' does not exist on type 'SvgToPdfNode'.
+src/js/workflow/nodes/table-of-contents-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/table-of-contents-node.ts(16,10): error TS2339: Property 'addInput' does not exist on type 'TableOfContentsNode'.
+src/js/workflow/nodes/table-of-contents-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'TableOfContentsNode'.
+src/js/workflow/nodes/table-of-contents-node.ts(18,10): error TS2339: Property 'addControl' does not exist on type 'TableOfContentsNode'.
+src/js/workflow/nodes/table-of-contents-node.ts(22,10): error TS2339: Property 'addControl' does not exist on type 'TableOfContentsNode'.
+src/js/workflow/nodes/table-of-contents-node.ts(26,10): error TS2339: Property 'addControl' does not exist on type 'TableOfContentsNode'.
+src/js/workflow/nodes/table-of-contents-node.ts(30,10): error TS2339: Property 'addControl' does not exist on type 'TableOfContentsNode'.
+src/js/workflow/nodes/table-of-contents-node.ts(41,28): error TS2339: Property 'controls' does not exist on type 'TableOfContentsNode'.
+src/js/workflow/nodes/table-of-contents-node.ts(44,31): error TS2339: Property 'controls' does not exist on type 'TableOfContentsNode'.
+src/js/workflow/nodes/table-of-contents-node.ts(47,33): error TS2339: Property 'controls' does not exist on type 'TableOfContentsNode'.
+src/js/workflow/nodes/table-of-contents-node.ts(50,34): error TS2339: Property 'controls' does not exist on type 'TableOfContentsNode'.
+src/js/workflow/nodes/text-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/text-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'TextToPdfNode'.
+src/js/workflow/nodes/text-to-pdf-node.ts(18,10): error TS2339: Property 'addControl' does not exist on type 'TextToPdfNode'.
+src/js/workflow/nodes/text-to-pdf-node.ts(22,10): error TS2339: Property 'addControl' does not exist on type 'TextToPdfNode'.
+src/js/workflow/nodes/text-to-pdf-node.ts(26,10): error TS2339: Property 'addControl' does not exist on type 'TextToPdfNode'.
+src/js/workflow/nodes/text-to-pdf-node.ts(64,31): error TS2339: Property 'controls' does not exist on type 'TextToPdfNode'.
+src/js/workflow/nodes/text-to-pdf-node.ts(68,33): error TS2339: Property 'controls' does not exist on type 'TextToPdfNode'.
+src/js/workflow/nodes/text-to-pdf-node.ts(76,32): error TS2339: Property 'controls' does not exist on type 'TextToPdfNode'.
+src/js/workflow/nodes/timestamp-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/timestamp-node.ts(17,10): error TS2339: Property 'addInput' does not exist on type 'TimestampNode'.
+src/js/workflow/nodes/timestamp-node.ts(18,10): error TS2339: Property 'addOutput' does not exist on type 'TimestampNode'.
+src/js/workflow/nodes/timestamp-node.ts(22,10): error TS2339: Property 'addControl' does not exist on type 'TimestampNode'.
+src/js/workflow/nodes/timestamp-node.ts(39,29): error TS2339: Property 'controls' does not exist on type 'TimestampNode'.
+src/js/workflow/nodes/vsd-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/vsd-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'VsdToPdfNode'.
+src/js/workflow/nodes/watermark-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/watermark-node.ts(19,10): error TS2339: Property 'addInput' does not exist on type 'WatermarkNode'.
+src/js/workflow/nodes/watermark-node.ts(20,10): error TS2339: Property 'addOutput' does not exist on type 'WatermarkNode'.
+src/js/workflow/nodes/watermark-node.ts(24,10): error TS2339: Property 'addControl' does not exist on type 'WatermarkNode'.
+src/js/workflow/nodes/watermark-node.ts(28,10): error TS2339: Property 'addControl' does not exist on type 'WatermarkNode'.
+src/js/workflow/nodes/watermark-node.ts(32,10): error TS2339: Property 'addControl' does not exist on type 'WatermarkNode'.
+src/js/workflow/nodes/watermark-node.ts(36,10): error TS2339: Property 'addControl' does not exist on type 'WatermarkNode'.
+src/js/workflow/nodes/watermark-node.ts(40,10): error TS2339: Property 'addControl' does not exist on type 'WatermarkNode'.
+src/js/workflow/nodes/watermark-node.ts(44,10): error TS2339: Property 'addControl' does not exist on type 'WatermarkNode'.
+src/js/workflow/nodes/watermark-node.ts(48,10): error TS2339: Property 'addControl' does not exist on type 'WatermarkNode'.
+src/js/workflow/nodes/watermark-node.ts(52,10): error TS2339: Property 'addControl' does not exist on type 'WatermarkNode'.
+src/js/workflow/nodes/watermark-node.ts(64,25): error TS2339: Property 'controls' does not exist on type 'WatermarkNode'.
+src/js/workflow/nodes/watermark-node.ts(70,25): error TS2339: Property 'controls' does not exist on type 'WatermarkNode'.
+src/js/workflow/nodes/word-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/word-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'WordToPdfNode'.
+src/js/workflow/nodes/wpd-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/wpd-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'WpdToPdfNode'.
+src/js/workflow/nodes/wps-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/wps-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'WpsToPdfNode'.
+src/js/workflow/nodes/xml-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/xml-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'XmlToPdfNode'.
+src/js/workflow/nodes/xps-to-pdf-node.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/nodes/xps-to-pdf-node.ts(17,10): error TS2339: Property 'addOutput' does not exist on type 'XpsToPdfNode'.
+src/js/workflow/serialization.ts(1,33): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/serialization.ts(2,33): error TS2307: Cannot find module 'rete-area-plugin' or its corresponding type declarations.
+src/js/workflow/serialization.ts(3,47): error TS2307: Cannot find module '@retejs/lit-plugin' or its corresponding type declarations.
+src/js/workflow/serialization.ts(6,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/js/workflow/serialization.ts(35,33): error TS2322: Type 'unknown' is not assignable to type 'object'.
+src/js/workflow/serialization.ts(100,28): error TS2339: Property 'controls' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/serialization.ts(107,39): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/serialization.ts(109,31): error TS2339: Property 'id' does not exist on type 'BaseWorkflowNode'.
+src/js/workflow/sockets.ts(1,31): error TS2307: Cannot find module 'rete' or its corresponding type declarations.
+src/tests/pdf-decrypt.test.ts(212,34): error TS2339: Property 'controls' does not exist on type 'DecryptNode'.
