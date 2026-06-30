@@ -190,7 +190,8 @@ export const applyTranslations = (): void => {
     const key = element.getAttribute('data-i18n');
     if (key) {
       const translation = t(key);
-      if (translation && translation !== key) {
+      const keyPath = key.includes(':') ? key.split(':')[1] : key;
+      if (translation && translation !== key && translation !== keyPath) {
         element.textContent = translation;
       }
     }
