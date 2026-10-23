@@ -16,7 +16,6 @@ import {
   initI18n,
   applyTranslations,
   rewriteLinks,
-  injectLanguageSwitcher,
   t,
 } from './i18n/index.js';
 import {
@@ -47,7 +46,6 @@ declare const __BRAND_NAME__: string;
 const init = async () => {
   await initI18n();
   await loadRuntimeConfig();
-  injectLanguageSwitcher();
   applyTranslations();
 
   if (isCurrentPageDisabled()) {
