@@ -5,11 +5,7 @@ import { initPagePreview } from '../utils/page-preview.js';
 import { loadPdfWithPasswordPrompt } from '../utils/password-prompt.js';
 import { loadPdfDocument } from '../utils/load-pdf-document.js';
 import { escapeHtml } from '../utils/helpers.js';
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.mjs',
-  import.meta.url
-).toString();
+import '../utils/setup-pdf-worker.js';
 
 // State
 const pageState: {
@@ -370,6 +366,6 @@ document.addEventListener('DOMContentLoaded', () => {
   processBtn?.addEventListener('click', processRemoveBlankPages);
 
   document.getElementById('back-to-tools')?.addEventListener('click', () => {
-    window.location.href = '../../index.html';
+    window.location.href = import.meta.env.BASE_URL;
   });
 });
