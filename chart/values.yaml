@@ -75,6 +75,8 @@ securityContext:
   capabilities:
     drop:
       - ALL
+  seccompProfile:
+    type: RuntimeDefault
 
 resources: {}
 
@@ -86,3 +88,7 @@ readinessProbe:
   httpGet:
     path: /
     port: http
+
+extraVolumes: []
+
+extraVolumeMounts: []
